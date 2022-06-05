@@ -1,52 +1,114 @@
+.nav ul {
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -8px;
+  margin-bottom: 20px;
+  margin-inline-start: 160px;
+}
+.nav li {
+  display: inline-block;
+  font-size: 0.6rem;
 
+}
 h1{
   font-size: 3.3rem;
+  background-color: white;
   margin-inline-start: 20px;
   margin-top: -10px;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
+}
+
+.linje{
+  border-left: 2px solid black;
+  height: 1300px;
+  position: absolute;
+  top: 0%;
+  left: 15%;
 }
 
 #knap02{
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: gray;
   background-color: white;
   border: none;
   margin: 20px;
   position: absolute;
-  top: 18%;
-  left: -1%;
+  top: 15%;
+  left: 1%;
 }
 #knap03{
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: gray;
   background-color: white;
   border: none;
   margin: 20px;
   position: absolute;
-  top: 18%;
-  left: 18.5%;
+  top: 35%;
+  left: 1%;
 }
 #knap04{
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: gray;
   background-color: white;
   border: none;
   margin: 20px;
   position: absolute;
-  top: 18%;
-  left: 34%;
+  top: 55%;
+  left: 1%;
 }
 #knap05{
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: gray;
   background-color: white;
   border: none;
   margin: 20px;
   position: absolute;
-  top: 18%;
-  left: 65%;
+  top: 75%;
+  left: 1%;
+}
+#knap02:hover, #knap03:hover, #knap04:hover,#knap05:hover{
+  color: black;
 }
 
+button{
+  position: absolute;
+  border:solid 1px black;
+  background-color: white;
+  top: 160%;
+  left: 50%; 
+}
+
+.hide{
+  display:none;
+}
+
+
+#billede_02_1{
+  position: absolute;
+  top: 90%;
+  left: 16%;
+  width: 10em;
+  height: 10px;
+}
+
+#billede_02_2{
+  position: absolute;
+  top: 20%;
+  left: 33%;
+}
+
+#tekst_02_1{
+  border: solid 1px;
+  position: absolute;
+  top: 65%;
+  left: 22%; 
+}
+#tekst_02_2{
+  border: solid 1px;
+  position: absolute;
+  top: 140%;
+  left: 22%; 
+}
 
 
 @media (min-width: 600px){
@@ -69,6 +131,9 @@ h1{
   margin-inline-start: 83px;
   margin-top: -40px;
   margin-bottom: -10px;
+}
+.linje{
+  display: none;
 }
 
   /*styling af menu*/
@@ -98,36 +163,39 @@ h1{
     left: 5%;
 }
 
-/*sort hover på menu knapper*/
-#knap02:hover, #knap03:hover, #knap04:hover,#knap05:hover{
-    color: black;
-}
 
-#billede_1{
+#billede_02_1{
   position: absolute;
   top: 60%;
   left: 70%;
 }
-#billede_2{
+
+#billede_02_2{
   position: absolute;
   top: 20%;
   left: 48%;
 }
 
-#tekst_box1{
+#tekst_02_1{
   border: solid 1px;
   line-height: 85px;
   position: absolute;
   top: 20%;
   left: 70%; 
 }
-#tekst_box2{
+#tekst_02_2{
   border: solid 1px;
   line-height: 85px;
   position: absolute;
   top: 60%;
   left: 48%; 
 }
+
+/*sort hover på menu knapper*/
+#knap02:hover, #knap03:hover, #knap04:hover,#knap05:hover{
+    color: black;
+}
+
 
 button{
   position: absolute;
@@ -136,6 +204,8 @@ button{
   top: 98%;
   left: 65%; 
 }
+
+
 /*java styling*/
 
 .hide{

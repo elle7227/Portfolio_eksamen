@@ -1,0 +1,96 @@
+
+/*lodret streg venstre*/
+#streg_1{
+    border-left: 5px solid black;
+    height: 2000px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+/*lodret streg højre*/
+#streg_2{
+    border-left: 5px solid black;
+    height: 2000px;
+    position: absolute;
+    top: 0%;
+    left: 85%;
+}
+/*lodret streg kort højre*/
+#streg_4{
+    border-left: 2px solid black;
+    height: 563px;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+/*vandret streg øverst*/
+#streg_3{
+    margin-top: -40px;
+}
+
+/*vandret streg kort første*/
+#streg_5{
+    margin-top: 190px;
+    margin-right: 350px;
+    margin-left: 210px;
+}
+/*vandret streg kort anden*/
+#streg_6{
+    margin-top: 190px;
+    margin-right: 350px;
+    margin-left: 210px;
+}
+#streg_62{
+    margin-top: 110px;
+    
+}
+/*vandret streg lang tredje (øver billedere)*/
+#streg_7{
+    margin-top: 528px;
+}
+/*vandret streg lang tredje (øverst cv)*/
+#streg_8{
+    margin-top: 100px;
+}
+/*vandret streg lang femte (nederst cv)*/
+#streg_9{
+    margin-top: 150px;
+}
+
+.sektion_1 h1{
+    font-size: 5rem;
+    position: absolute;
+    top: 7%;
+    left:16%;
+}
+.sektion_1 h2{
+    font-size: 5rem;
+    position: absolute;
+    top: 28%;
+    left:16%;
+}
+.sektion_1 p{
+    position: absolute;
+    top: 0%;
+    left:78%;
+}
+
+.sektion_2 #tekst{
+    border: solid 1px;
+    position: absolute;
+    top: 68%;
+    left: 22%; 
+  }
+.sektion_2 img{
+    position: absolute;
+    top: 67.7%;
+    left: 57.3%;    
+}
+
+.sektion_3 h1{
+    position: absolute;
+    top: 135%;
+    left:45%;
+}
+
+

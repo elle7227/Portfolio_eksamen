@@ -1,0 +1,144 @@
+
+h1{
+  font-size: 3.3rem;
+  margin-inline-start: 20px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#knap02{
+  font-size: 1.4rem;
+  color: gray;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  position: absolute;
+  top: 18%;
+  left: -1%;
+}
+#knap03{
+  font-size: 1.4rem;
+  color: gray;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  position: absolute;
+  top: 18%;
+  left: 18.5%;
+}
+#knap04{
+  font-size: 1.4rem;
+  color: gray;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  position: absolute;
+  top: 18%;
+  left: 34%;
+}
+#knap05{
+  font-size: 1.4rem;
+  color: gray;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  position: absolute;
+  top: 18%;
+  left: 65%;
+}
+
+
+
+@media (min-width: 600px){
+.nav ul {
+    text-align: center;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 40px;
+    height: 40px;
+    padding-inline: 5px;
+    transition: all 500ms;
+  }
+
+  h1{
+  font-size: 6rem;
+  margin-inline-start: 83px;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+  /*styling af menu*/
+
+  #knap02{
+    font-size: 4rem;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  #knap03{
+    font-size: 4rem;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#knap04{
+    font-size: 4rem;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+#knap05{
+    font-size: 4rem;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+/*sort hover på menu knapper*/
+#knap02:hover, #knap03:hover, #knap04:hover,#knap05:hover{
+    color: black;
+}
+
+#billede_1{
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+#billede_2{
+  position: absolute;
+  top: 20%;
+  left: 48%;
+}
+
+#tekst_box1{
+  border: solid 1px;
+  line-height: 85px;
+  position: absolute;
+  top: 20%;
+  left: 70%; 
+}
+#tekst_box2{
+  border: solid 1px;
+  line-height: 85px;
+  position: absolute;
+  top: 60%;
+  left: 48%; 
+}
+
+button{
+  position: absolute;
+  border:solid 1px black;
+  background-color: white;
+  top: 98%;
+  left: 65%; 
+}
+/*java styling*/
+
+.hide{
+  display:none;
+}
+}

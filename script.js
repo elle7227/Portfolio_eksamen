@@ -43,3 +43,4 @@ function click5(){
     document.querySelector("#projekt_04").classList.add("hide");
     document.querySelector("#projekt_05").classList.remove("hide");
 }
+

@@ -1,3 +1,244 @@
+html{
+    width: 100%;
+}
+header{
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+/*lodret streg venstre*/
+#streg_1{
+    border-left: 5px solid black;
+    height: 2000px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+/*lodret streg højre*/
+#streg_2{
+    border-left: 5px solid black;
+    height: 2000px;
+    position: absolute;
+    top: 0%;
+    left: 85%;
+}
+
+/*vandret streg øverst*/
+#streg_3{
+    margin-top: -60px;
+}
+
+/*lodret streg kort højre (skjult på mobil ved height:0px)*/
+#streg_4{
+    border-left: 2px solid black;
+    height:0px;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+
+/*vandret streg kort første*/
+#streg_5{
+    width: 320px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+/*vandret streg kort anden*/
+#streg_6{
+    width: 320px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+/*vandret streg lang over billedet*/
+#streg_62{
+    margin-top: 45px; 
+}
+/*vandret streg lang tredje (over billedere)*/
+#streg_7{
+    margin-top: 820px;
+}
+/*vandret streg lang tredje (øverst cv)*/
+#streg_8{
+    margin-top: 35px;
+}
+/*vandret streg lang femte (nederst cv)*/
+#streg_9{
+    margin-top: 700px;
+}
+
+
+/*ELLEN HEIN*/
+.sektion_1 h1{
+    font-size: 3rem;
+    position: absolute;
+    top: 3%;
+    left:16%;
+}
+/*MULTIMEDIEDESIGN*/
+.sektion_1 h2{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 16%;
+    left:17%;
+}
+#stregkode img{
+    width: 250px;
+    position: absolute;
+    top: 27%;
+    left: 22%; 
+}
+
+/*kontakt*/
+.sektion_1 p{
+    position: absolute;
+    top: 0%;
+    left:88%;
+    font-size: 0.7rem;
+}
+
+
+/*om ellenn teksten*/
+ #tekst{
+    position: absolute;
+    top: 70%;
+  }
+  #tekst p{
+    font-size: 1rem;
+    margin-inline: 80px;
+  }
+  #tekst h2{
+    font-size: 2rem;
+    margin-left: 140px;
+  }
+.sektion_2 img{
+    position: absolute;
+    width: 200px;
+    top: 37%;
+    left: 28%;    
+}
+/*mit cv*/
+.sektion_3 h1{
+    position: absolute;
+    top: 140%;
+    left:40%;
+}
+
+.hide{
+    display:none;
+  }
+  
+ #cv_1_forside img{
+     width: 100px;
+    position: absolute;
+    top: 150%;
+    left:23%;
+ } 
+ #cv_1_tekst{
+    position: absolute;
+    top: 150%;
+    left:23%;
+ } 
+
+ #cv_2_forside img{
+    width: 100px;
+    position: absolute;
+    top: 150%;
+    left:55%;
+ } 
+ #cv_2_tekst{
+    position: absolute;
+    top: 150%;
+    left:55%;
+ } 
+
+ #cv_3_forside img{
+    width: 100px;
+    position: absolute;
+    top: 170%;
+    left:23%;
+ } 
+ #cv_3_tekst{
+    position: absolute;
+    top: 170%;
+    left:23%;
+ } 
+
+ #cv_4_forside img{
+    width: 100px;
+    position: absolute;
+    top: 170%;
+    left:55%;
+ } 
+ #cv_4_tekst{
+    position: absolute;
+    top: 170%;
+    left:55%;
+ } 
+
+ #cv_5_forside img{
+    width: 100px;
+    position: absolute;
+    top: 190%;
+    left:23%;
+ } 
+ #cv_5_tekst{
+    position: absolute;
+    top: 190%;
+    left:23%;
+ } 
+
+ #cv_6_forside img{
+    width: 100px;
+    position: absolute;
+    top: 190%;
+    left:55%;
+ } 
+ #cv_6_tekst{
+    position: absolute;
+    top: 190%;
+    left:55%;
+ } 
+
+ #cv_7_forside img{
+    width: 100px;
+    position: absolute;
+    top: 210%;
+    left:23%;
+ } 
+ #cv_7_tekst{
+    position: absolute;
+    top: 210%;
+    left:23%;
+ } 
+
+ #cv_8_forside img{
+    width: 100px;
+    position: absolute;
+    top: 210%;
+    left:55%;
+ } 
+ #cv_8_tekst{
+    position: absolute;
+    top: 210%;
+    left:55%;
+ } 
+
+ #cv_9_forside img{
+    width: 100px;
+    position: absolute;
+    top: 230%;
+    left:23%;
+ } 
+ #cv_9_tekst{
+    position: absolute;
+    top: 230%;
+    left:23%;
+ } 
+
+
+
+
+ @media (min-width: 800px){
 
 /*lodret streg venstre*/
 #streg_1{
@@ -27,22 +268,21 @@
 #streg_3{
     margin-top: -40px;
 }
-
 /*vandret streg kort første*/
 #streg_5{
     margin-top: 190px;
-    margin-right: 350px;
     margin-left: 210px;
+    width: 865px;
 }
 /*vandret streg kort anden*/
 #streg_6{
     margin-top: 190px;
-    margin-right: 350px;
     margin-left: 210px;
+    width: 865px;
 }
+/*vandret streg lang over billedet*/
 #streg_62{
-    margin-top: 110px;
-    
+    margin-top: 110px; 
 }
 /*vandret streg lang tredje (øver billedere)*/
 #streg_7{
@@ -57,40 +297,389 @@
     margin-top: 150px;
 }
 
+
+/*ELLEN HEIN*/
 .sektion_1 h1{
     font-size: 5rem;
     position: absolute;
     top: 7%;
     left:16%;
 }
+/*MULTIMEDIEDESIGN*/
 .sektion_1 h2{
     font-size: 5rem;
     position: absolute;
     top: 28%;
     left:16%;
 }
+#stregkode img{
+    width: 500px;
+    position: absolute;
+    top: 55.5%;
+    left: 24%; 
+}
+
+
+/*kontakt*/
 .sektion_1 p{
     position: absolute;
     top: 0%;
     left:78%;
 }
 
-.sektion_2 #tekst{
-    border: solid 1px;
+
+/*om ellenn teksten*/
+ #tekst{
     position: absolute;
     top: 68%;
-    left: 22%; 
+    left: 17%; 
+  }
+  #tekst p{
+    font-size: 1rem;
+  }
+  #tekst h2{
+    font-size: 2rem;
+    margin-left: 150px;
   }
 .sektion_2 img{
     position: absolute;
+    width: 400px;
     top: 67.7%;
     left: 57.3%;    
 }
-
+/*mit cv*/
 .sektion_3 h1{
     position: absolute;
     top: 135%;
     left:45%;
 }
 
+.hide{
+    display:none;
+  }
 
+ #cv_1_forside{
+    position: absolute;
+    top: 150%;
+    left:23%;
+ } 
+ #cv_1_tekst{
+    position: absolute;
+    top: 150%;
+    left:23%;
+ } 
+
+ #cv_2_forside{
+    position: absolute;
+    top: 150%;
+    left:43%;
+ } 
+ #cv_2_tekst{
+    position: absolute;
+    top: 150%;
+    left:43%;
+ } 
+
+ #cv_3_forside{
+    position: absolute;
+    top: 150%;
+    left:63%;
+ } 
+ #cv_3_tekst{
+    position: absolute;
+    top: 150%;
+    left:63%;
+ } 
+
+ #cv_4_forside{
+    position: absolute;
+    top: 185%;
+    left:23%;
+ } 
+ #cv_4_tekst{
+    position: absolute;
+    top: 185%;
+    left:23%;
+ } 
+
+ #cv_5_forside{
+    position: absolute;
+    top: 185%;
+    left:43%;
+ } 
+ #cv_5_tekst{
+    position: absolute;
+    top: 185%;
+    left:43%;
+ } 
+
+ #cv_6_forside{
+    position: absolute;
+    top: 185%;
+    left:63%;
+ } 
+ #cv_6_tekst{
+    position: absolute;
+    top: 185%;
+    left:63%;
+ } 
+
+ #cv_7_forside{
+    position: absolute;
+    top: 220%;
+    left:23%;
+ } 
+ #cv_7_tekst{
+    position: absolute;
+    top: 220%;
+    left:23%;
+ } 
+
+ #cv_8_forside{
+    position: absolute;
+    top: 220%;
+    left:43%;
+ } 
+ #cv_8_tekst{
+    position: absolute;
+    top: 220%;
+    left:43%;
+ } 
+
+ #cv_9_forside{
+    position: absolute;
+    top: 220%;
+    left:63%;
+ } 
+ #cv_9_tekst{
+    position: absolute;
+    top: 220%;
+    left:63%;
+ } 
+ }
+
+
+
+
+@media (min-width: 800px) and (max-width: 1200px){
+    
+    /*lodret streg venstre*/
+    #streg_1{
+        border-left: 5px solid black;
+        height: 2000px;
+        position: absolute;
+        top: 0%;
+        left: 15%;
+    }
+    /*lodret streg højre*/
+    #streg_2{
+        border-left: 5px solid black;
+        height: 2000px;
+        position: absolute;
+        top: 0%;
+        left: 85%;
+    }
+    /*lodret streg kort højre*/
+    #streg_4{
+        border-left: 2px solid black;
+        height:0px;
+        position: absolute;
+        top: 0%;
+        left: 75%;
+    }
+    /*vandret streg øverst*/
+    #streg_3{
+        margin-top: -40px;
+    }
+    /*vandret streg kort første*/
+    #streg_5{
+        margin-top: 190px;
+        margin-right: 350px;
+        margin-left: 210px;
+        width:0px;
+    }
+    /*vandret streg kort anden*/
+    #streg_6{
+        margin-top: 190px;
+        margin-right: 350px;
+        margin-left: 210px;
+        width:0px;
+    }
+    /*vandret streg lang over billedet*/
+    #streg_62{
+        margin-top: 110px; 
+    }
+    /*vandret streg lang tredje (øver billedere)*/
+    #streg_7{
+        margin-top: 528px;
+    }
+    /*vandret streg lang tredje (øverst cv)*/
+    #streg_8{
+        margin-top: 100px;
+    }
+    /*vandret streg lang femte (nederst cv)*/
+    #streg_9{
+        margin-top: 150px;
+    }
+    
+    
+    /*ELLEN HEIN*/
+    .sektion_1 h1{
+        font-size: 4rem;
+        position: absolute;
+        top: 7%;
+        left:16%;
+    }
+    /*MULTIMEDIEDESIGN*/
+    .sektion_1 h2{
+        font-size: 3.5rem;
+        position: absolute;
+        top: 22%;
+        left:16%;
+    }
+    #stregkode img{
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 20%; 
+    }
+    
+    
+    /*kontakt*/
+    .sektion_1 p{
+        position: absolute;
+        top: 0%;
+        left:78%;
+    }
+    
+    
+    /*om ellenn teksten*/
+     #tekst{
+        position: absolute;
+        top: 68%;
+        left: 17%; 
+      }
+      #tekst p{
+        font-size: 1rem;
+      }
+      #tekst h2{
+        font-size: 2rem;
+        margin-left: 150px;
+      }
+    .sektion_2 img{
+        position: absolute;
+        top: 67.7%;
+        left: 57.3%;    
+    }
+    /*mit cv*/
+    .sektion_3 h1{
+        position: absolute;
+        top: 135%;
+        left:45%;
+    }
+    
+    .hide{
+        display:none;
+      }
+    
+     #cv_1_forside{
+        position: absolute;
+        top: 150%;
+        left:23%;
+     } 
+     #cv_1_tekst{
+        position: absolute;
+        top: 150%;
+        left:23%;
+     } 
+    
+     #cv_2_forside{
+        position: absolute;
+        top: 150%;
+        left:43%;
+     } 
+     #cv_2_tekst{
+        position: absolute;
+        top: 150%;
+        left:43%;
+     } 
+    
+     #cv_3_forside{
+        position: absolute;
+        top: 150%;
+        left:63%;
+     } 
+     #cv_3_tekst{
+        position: absolute;
+        top: 150%;
+        left:63%;
+     } 
+    
+     #cv_4_forside{
+        position: absolute;
+        top: 185%;
+        left:23%;
+     } 
+     #cv_4_tekst{
+        position: absolute;
+        top: 185%;
+        left:23%;
+     } 
+    
+     #cv_5_forside{
+        position: absolute;
+        top: 185%;
+        left:43%;
+     } 
+     #cv_5_tekst{
+        position: absolute;
+        top: 185%;
+        left:43%;
+     } 
+    
+     #cv_6_forside{
+        position: absolute;
+        top: 185%;
+        left:63%;
+     } 
+     #cv_6_tekst{
+        position: absolute;
+        top: 185%;
+        left:63%;
+     } 
+    
+     #cv_7_forside{
+        position: absolute;
+        top: 220%;
+        left:23%;
+     } 
+     #cv_7_tekst{
+        position: absolute;
+        top: 220%;
+        left:23%;
+     } 
+    
+     #cv_8_forside{
+        position: absolute;
+        top: 220%;
+        left:43%;
+     } 
+     #cv_8_tekst{
+        position: absolute;
+        top: 220%;
+        left:43%;
+     } 
+    
+     #cv_9_forside{
+        position: absolute;
+        top: 220%;
+        left:63%;
+     } 
+     #cv_9_tekst{
+        position: absolute;
+        top: 220%;
+        left:63%;
+     } 
+     }
+
+   

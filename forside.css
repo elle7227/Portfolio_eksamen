@@ -1,0 +1,108 @@
+
+.nav ul {
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+
+  h1{
+      font-size: 7rem;
+      letter-spacing: 40px;
+  }
+
+
+.grid_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    width: 720px;
+   margin-inline: -2px;
+}
+
+#gardin_hojre {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url(billeder/gardin_hojre.png);
+    background-size: 100%;
+    top: 0%;
+    left: 50%;
+    background-repeat: no-repeat;
+
+}
+#gardin_venstre {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url(billeder/gardin_venstre.png);
+    background-size: 100%;
+    top: 0%;
+    left: 0%;
+    background-repeat: no-repeat;
+}
+ 
+
+.slide {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translatex(0%);
+    }
+    to {
+      transform: translatex(100%);
+    }
+  }
+
+  .slide_2 {
+    animation-name: slide_2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes slide_2 {
+    from {
+      transform: translatex(0%);
+    }
+    to {
+      transform: translatex(-100%);
+    }
+  }
+
+  @media (max-width: 600px){
+    #gardin_hojre {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background-image: url(billeder/gardin_hojre_mobil.png);
+        background-size: 100%;
+        top: 0%;
+        left: 50%;
+        background-repeat: no-repeat;
+    
+    }
+    #gardin_venstre {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background-image: url(billeder/gardin_venstre_mobil.png);
+        background-size: 100%;
+        top: 0%;
+        left: 0%;
+        background-repeat: no-repeat;
+    }  
+  }
+
+

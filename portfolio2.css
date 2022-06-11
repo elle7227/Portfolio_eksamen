@@ -15,6 +15,7 @@
 
   #program_tekst h2{
     font-size: 2.4rem;
+    font-family: 'Space Mono', monospace;
   letter-spacing: 30px;
     position: absolute;
     top: 1%;
@@ -32,25 +33,33 @@
     margin-left: 50px;
 }
 h2{
+    font-family: 'Space Mono', monospace;
     font-size: 2rem;
 }
 h1{
+    font-family: 'Space Mono', monospace;
     font-size: 1.5rem;
     margin-left: 10px;
 }
+
+p{
+    font-family: 'Prompt', sans-serif;
+}
+
 #forside_02, #forside_03, #forside_04, #forside_05{
         margin-right: 50px;
+        border-top: solid 1px black;
+        margin-top: 40px;
     }
 
 #forside_02 h2, #forside_03 h2, #forside_04 h2,  #forside_05 h2{
-    margin-top: 30px;  
+    margin-top: 10px;  
     margin-left: 1px;
     margin-bottom: 5px;
-    border-top: solid 1px black;
 }
 
 #forside_02 img, #forside_03 img, #forside_04 img, #forside_05 img{
-    width: 300px;
+    width: 200px;
     margin-bottom: 10px;
 }
 
@@ -104,7 +113,7 @@ h1{
       top: 2%;
         left: 5%;
     }
-    
+
     .grid_1{
     display: grid ;
     }
@@ -245,19 +254,31 @@ h1{
     margin-left: 230px;
 }
 
+h2:hover{
+    color: black;
+}
+
 h1{
+    
     font-size: 5rem;
     margin-left: 30px;
+    letter-spacing: -8px;
 }
 h2{
+    color: rgb(92, 90, 90);
     font-size: 3.2rem;
 }
 
 p{
-font-size: 1.3rem;
+font-size: 1rem;
+}
+
+img{
+    object-fit: cover;
 }
 
 #program_tekst h2{
+    color: black;
     font-size: 3.3rem;
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -275,7 +296,6 @@ display: grid ;
     margin-top: 15px;
     padding-bottom: 25px;
 }
-
 
 #forside_02, #forside_03, #forside_04, #forside_05{
 display: flex;
@@ -297,6 +317,7 @@ display: flex;
     margin-left: 50px;
     width: 150px;
     margin-top: 1px;
+    font: weight 400px;;
 }
 #indhold_02_overst p{
     margin-top: 50px;
@@ -352,6 +373,7 @@ display: flex;
     margin-right: 100px;
 }
 #indhold_02_overst h2, #indhold_03_overst h2, #indhold_04_overst h2, #indhold_05_overst h2{
+    color: black;
 margin-top: 5px;
 margin-left: 5px;
 }

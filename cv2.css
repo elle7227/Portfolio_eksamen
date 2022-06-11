@@ -10,9 +10,11 @@
   }
 
 h1{
+   font-family: 'Space Mono', monospace;
     font-size: 2rem;
 }
 h2{
+   font-family: 'Space Mono', monospace;
     font-size: 1rem;
 }
 
@@ -358,7 +360,7 @@ h2{
 #element_1-3 img{
     width: 700px;
 padding-bottom: 20px;
-margin-left: 150px;
+margin-left: 120px;
 }
 /*kolonne til højre med grafik (ved siden af overskrifterne)*/
 #col_1-2{ 
@@ -372,11 +374,9 @@ grid-template-columns: 2fr 1fr;
 }
 /*kolonne til venstre med om mig tekst*/
 
-#col_2-1 h2{
-    padding-left: 150px;
-}
 #col_2-1 p{
     padding-left: 75px;
+    text-align: justify;
 }
 /*kolonne til højre med portræt*/
 #col_2-2 img{

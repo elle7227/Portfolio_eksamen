@@ -14,32 +14,32 @@ function sidenVises(){
     document.querySelector("#cv_9_tekst").classList.add("hide");
 
     //definerer eventlistenere (click funktioner)//
-    document.querySelector("#cv_1_forside").addEventListener("click", click1);
-    document.querySelector("#cv_1_tekst").addEventListener("click", click11);
+    document.querySelector("#cv_1_forside").addEventListener("mouseover", click1);
+    document.querySelector("#cv_1_tekst").addEventListener("mouseout", click11);
 
-    document.querySelector("#cv_2_forside").addEventListener("click", click2);
-    document.querySelector("#cv_2_tekst").addEventListener("click", click22);
+    document.querySelector("#cv_2_forside").addEventListener("mouseover", click2);
+    document.querySelector("#cv_2_tekst").addEventListener("mouseout", click22);
 
-    document.querySelector("#cv_3_forside").addEventListener("click", click3);
-    document.querySelector("#cv_3_tekst").addEventListener("click", click33);
+    document.querySelector("#cv_3_forside").addEventListener("mouseover", click3);
+    document.querySelector("#cv_3_tekst").addEventListener("mouseout", click33);
 
-    document.querySelector("#cv_4_forside").addEventListener("click", click4);
-    document.querySelector("#cv_4_tekst").addEventListener("click", click44);
+    document.querySelector("#cv_4_forside").addEventListener("mouseover", click4);
+    document.querySelector("#cv_4_tekst").addEventListener("mouseout", click44);
 
-    document.querySelector("#cv_5_forside").addEventListener("click", click5);
-    document.querySelector("#cv_5_tekst").addEventListener("click", click55);
+    document.querySelector("#cv_5_forside").addEventListener("mouseover", click5);
+    document.querySelector("#cv_5_tekst").addEventListener("mouseout", click55);
 
-    document.querySelector("#cv_6_forside").addEventListener("click", click6);
-    document.querySelector("#cv_6_tekst").addEventListener("click", click66);
+    document.querySelector("#cv_6_forside").addEventListener("mouseover", click6);
+    document.querySelector("#cv_6_tekst").addEventListener("mouseout", click66);
 
-    document.querySelector("#cv_7_forside").addEventListener("click", click7);
-    document.querySelector("#cv_7_tekst").addEventListener("click", click77);
+    document.querySelector("#cv_7_forside").addEventListener("mouseover", click7);
+    document.querySelector("#cv_7_tekst").addEventListener("mouseout", click77);
 
-    document.querySelector("#cv_8_forside").addEventListener("click", click8);
-    document.querySelector("#cv_8_tekst").addEventListener("click", click88);
+    document.querySelector("#cv_8_forside").addEventListener("mouseover", click8);
+    document.querySelector("#cv_8_tekst").addEventListener("mouseout", click88);
 
-    document.querySelector("#cv_9_forside").addEventListener("click", click9);
-    document.querySelector("#cv_9_tekst").addEventListener("click", click99);
+    document.querySelector("#cv_9_forside").addEventListener("mouseover", click9);
+    document.querySelector("#cv_9_tekst").addEventListener("mouseout", click99);
 }
 
 

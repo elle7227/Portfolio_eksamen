@@ -1,13 +1,21 @@
 .nav ul {
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .nav li {
-    display: inline-block;
-    font-size: 0.6rem;
-  }
+   padding: 0px;
+   margin-bottom: 10px;
+   font-family: 'Prompt', sans-serif;
+   text-align: center;
+ }
+ .nav li {
+   display: inline-block;
+   font-size: 1rem;
+  margin-right: 20px;
+ }
+ a{
+   color: rgb(92, 90, 90);
+   text-decoration: none;
+ }
+ a:hover{
+   text-decoration: underline;
+}
 
 h1{
    font-family: 'Space Mono', monospace;
@@ -16,8 +24,16 @@ h1{
 h2{
    font-family: 'Space Mono', monospace;
     font-size: 1rem;
+
+}
+h3{
+   font-size: 0.5rem;
+   font-family: 'Space Mono', monospace;
 }
 
+p{
+   font-family: 'Prompt', sans-serif;
+}
 .main{
     border-top:solid 4px black; ;
     border-left: solid 4px black;
@@ -56,19 +72,21 @@ padding-bottom: 5px;
 }
 
 
+
 .grid_2{
 display: grid;
 grid-template-columns: 2fr 1fr;
 border-top: solid 1px black;
 }
 /*kolonne til venstre med om mig tekst*/
-  
-#col_2-1 h2{
-    text-align: center;
+
+#col_2-1 h3{
+    margin-left: 10px;
 }
+
 #col_2-1 p{
     padding-left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 /*kolonne til højre med portræt*/
 #col_2-2 img{
@@ -203,125 +221,35 @@ width: 200px;
     left:20%;
  }  
 
- #cv_9_forside img:hover{
-border: solid 4px black;
+.grid_4 img:hover{
+ scale: 120%;
  }
 
 
  @media (min-width: 700px){
     h1{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
     h2{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .main{
         border-top:solid 6px black; ;
         border-left: solid 6px black;
         border-right: solid 6px black;
     }
-    #cv_1_forside{
-        position: absolute;
-        top: 85%;
-        left:23%;
-     } 
-     #cv_1_tekst{
-        position: absolute;
-        top: 85%;
-        left:23%;
-     } 
-    
-     #cv_2_forside{
-        position: absolute;
-        top: 85%;
-        left:43%;
-     } 
-     #cv_2_tekst{
-        position: absolute;
-        top: 85%;
-        left:43%;
-     } 
-    
-     #cv_3_forside{
-        position: absolute;
-        top: 85%;
-        left:63%;
-     } 
-     #cv_3_tekst{
-        position: absolute;
-        top: 85%;
-        left:63%;
-     } 
-    
-     #cv_4_forside{
-        position: absolute;
-        top: 105%;
-        left:23%;
-     } 
-     #cv_4_tekst{
-        position: absolute;
-        top: 105%;
-        left:23%;
-     } 
-    
-     #cv_5_forside{
-        position: absolute;
-        top: 105%;
-        left:43%;
-     } 
-     #cv_5_tekst{
-        position: absolute;
-        top: 105%;
-        left:43%;
-     } 
-    
-     #cv_6_forside{
-        position: absolute;
-        top: 105%;
-        left:63%;
-     } 
-     #cv_6_tekst{
-        position: absolute;
-        top: 105%;
-        left:63%;
-     } 
-    
-     #cv_7_forside{
-        position: absolute;
-        top: 125%;
-        left:23%;
-     } 
-     #cv_7_tekst{
-        position: absolute;
-        top: 125%;
-        left:23%;
-     } 
-    
-     #cv_8_forside{
-        position: absolute;
-        top: 125%;
-        left:43%;
-     } 
-     #cv_8_tekst{
-        position: absolute;
-        top: 125%;
-        left:43%;
-     } 
-    
-     #cv_9_forside{
-        position: absolute;
-        top: 125%;
-        left:63%;
-     } 
-     #cv_9_tekst{
-        position: absolute;
-        top: 125%;
-        left:63%;
-     }  
-   
  }
 
  @media (min-width: 1200px){
+
+   .nav ul {
+      margin-bottom: 60px;
+    }
+    .nav li {
+      font-size: 1.5rem;
+      margin-right: 50px;
+    }
+
     .main{
         border-top:solid 6px black; ;
         border-left: solid 6px black;
@@ -330,32 +258,16 @@ border: solid 4px black;
     }
 h1{
     font-size: 5rem;
+   
 }
 h2{
     font-size: 3rem;
 }
-
-/*øverste boks/grid med menu */
-.grid_05{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 50px;
+        
+h3{
+   font-size: 1.5rem;
 }
 
-
-/*overskrifterne, colonne med grafik og stregkoden*/
-.grid_1 {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-/*ellen hein boksen*/
-#element_1-1{
-    border-bottom: solid 1px black;
-}
-/*multimediedesign boksen*/
-#element_1-2{
-    border-bottom: solid 1px black;
-}
 /*stregkoden*/
 #element_1-3 img{
     width: 700px;
@@ -364,7 +276,13 @@ margin-left: 120px;
 }
 /*kolonne til højre med grafik (ved siden af overskrifterne)*/
 #col_1-2{ 
-    border-bottom: solid 1px black;
+   display: grid;
+    border-right: solid 1px black;
+    border-left: solid 4px rgb(182, 248, 83);
+}
+#col_1-2 img{ 
+   width:90px;
+   margin-inline: auto;
 }
 
 
@@ -372,11 +290,14 @@ margin-left: 120px;
 display: grid;
 grid-template-columns: 2fr 1fr;
 }
-/*kolonne til venstre med om mig tekst*/
 
+/*kolonne til venstre med om mig tekst*/
 #col_2-1 p{
-    padding-left: 75px;
-    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    line-height: 25px;
+    font-size: 1rem;;
 }
 /*kolonne til højre med portræt*/
 #col_2-2 img{
@@ -392,26 +313,6 @@ border-bottom: solid 1px black;
 margin-top: -5px;
 border-inline: none;
 margin-inline: 0px;
-}
-.grid_3 h2{
-    margin-top: -10px;
-    margin-bottom: -10px;
-    text-align: center; 
-}
-
-/*lodret linje til højre (cv brikkerne)*/
-#linje_1{
-    height: 1100px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: -75px;
-}
-/*lodret linje til venstre (cv brikkerne)*/
-#linje_2{
-    height: 1100px;
-    position: absolute;
-    margin-top: -75px;
-    margin-left: 1269px;
 }
 
 .hide{

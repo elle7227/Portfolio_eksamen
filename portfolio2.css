@@ -252,7 +252,7 @@ p{
 @media (min-width:1300px){
 
 .main{
-    border-left: solid 12.7px rgb(182, 248, 83);
+    border-left: solid 6px black;
     margin-left: 180px;
 }
 
@@ -287,8 +287,8 @@ img{
     font-size: 5rem;
   letter-spacing: 20px;
     position: absolute;
-    top: 0.3%;
-    left: 8%;
+    top: 1.2%;
+    left: 15%;
 }
 .grid_1{
 display: grid ;
@@ -296,7 +296,7 @@ display: grid ;
 
 #element_1{
     margin-right: 100px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding-bottom: 25px;
 }
 

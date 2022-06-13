@@ -33,6 +33,7 @@ h3{
 
 p{
    font-family: 'Prompt', sans-serif;
+   font-size: 0.5rem;
 }
 .main{
     border-top:solid 4px black; ;
@@ -66,11 +67,6 @@ p{
     width: 350px;
 padding-bottom: 5px;
 }
-/*kolonne til højre med grafik (ved siden af overskrifterne)*/
-#col_1-2{ 
-    display: none;
-}
-
 
 
 .grid_2{
@@ -78,10 +74,11 @@ display: grid;
 grid-template-columns: 2fr 1fr;
 border-top: solid 1px black;
 }
-/*kolonne til venstre med om mig tekst*/
 
+/*kolonne til venstre med om mig tekst*/
 #col_2-1 h3{
     margin-left: 10px;
+    color: #D81146;
 }
 
 #col_2-1 p{
@@ -97,134 +94,24 @@ width: 200px;
 /*boksen med MIT CV TEKST*/
 .grid_3{
     display: grid;
-    grid-template-columns: 1fr;
-    border-block: solid 1px black;
+    grid-template-columns: 1fr 1fr 1fr;
    margin-top: -7px;
+   border-bottom: solid 4px black;
 }
-.grid_3 h2{
-    margin-top: -10px;
-    margin-bottom: -10px;
-    text-align: center; 
+.grid_3 img{
+   margin-left: 9px; 
+   width: 100px;
 }
-
-
-
-.hide{
-    display:none;
+.mit_cv{
+   text-align: center;
 }
 
-#cv_1_forside img{
-    width: 100px;
-    position: absolute;
-    top: 85%;
-    left:20%;
- } 
- #cv_1_tekst{
-    position: absolute;
-    top: 85%;
-    left:20%;
- } 
-
- #cv_2_forside img{
-    width: 100px;
-    position: absolute;
-    top: 85%;
-    left:55%;
- } 
- #cv_2_tekst{
-    position: absolute;
-    top: 85%;
-    left:55%;
- } 
-
- #cv_3_forside img{
-    width: 100px;
-    position: absolute;
-    top: 105%;
-    left:20%;
- } 
- #cv_3_tekst{
-    position: absolute;
-    top: 105%;
-    left:20%;
- } 
-
- #cv_4_forside img{
-    width: 100px;
-    position: absolute;
-    top: 105%;
-    left:55%;
- } 
- #cv_4_tekst{
-    position: absolute;
-    top: 105%;
-    left:55%;
- } 
-
- #cv_5_forside img{
-    width: 100px;
-    position: absolute;
-    top: 125%;
-    left:20%;
- } 
- #cv_5_tekst{
-    position: absolute;
-    top: 125%;
-    left:20%;
- } 
-
- #cv_6_forside img{
-    width: 100px;
-    position: absolute;
-    top: 125%;
-    left:55%;
- } 
- #cv_6_tekst{
-    position: absolute;
-    top: 125%;
-    left:55%;
- } 
-
- #cv_7_forside img{
-    width: 100px;
-    position: absolute;
-    top: 145%;
-    left:20%;
- } 
- #cv_7_tekst{
-    position: absolute;
-    top: 145%;
-    left:20%;
- } 
-
- #cv_8_forside img{
-    width: 100px;
-    position: absolute;
-    top: 145%;
-    left:55%;
- } 
- #cv_8_tekst{
-    position: absolute;
-    top: 145%;
-    left:55%;
- } 
-
- #cv_9_forside img{
-     width: 100px;
-    position: absolute;
-    top: 165%;
-    left:20%;
- } 
- #cv_9_tekst{
-    position: absolute;
-    top: 165%;
-    left:20%;
- }  
-
-.grid_4 img:hover{
+.grid_3 img:hover{
  scale: 120%;
  }
-
+ .hide{
+   display:none;
+}
 
  @media (min-width: 700px){
     h1{
@@ -242,20 +129,20 @@ width: 200px;
 
  @media (min-width: 1200px){
 
-   .nav ul {
-      margin-bottom: 60px;
-    }
-    .nav li {
-      font-size: 1.5rem;
-      margin-right: 50px;
-    }
+.nav ul {
+   margin-bottom: 60px;
+}
+.nav li {
+   font-size: 1.5rem;
+   margin-right: 50px;
+}
 
-    .main{
-        border-top:solid 6px black; ;
-        border-left: solid 6px black;
-        border-right: solid 6px black;
-        margin-inline: 230px;
-    }
+.main{
+   border-top:solid 6px black; ;
+   border-left: solid 6px black;
+   border-right: solid 6px black;
+   margin-inline: 230px;
+}
 h1{
     font-size: 5rem;
    
@@ -274,21 +161,19 @@ h3{
 padding-bottom: 20px;
 margin-left: 120px;
 }
-/*kolonne til højre med grafik (ved siden af overskrifterne)*/
-#col_1-2{ 
-   display: grid;
-    border-right: solid 1px black;
-    border-left: solid 4px rgb(182, 248, 83);
-}
+
 #col_1-2 img{ 
    width:90px;
    margin-inline: auto;
 }
 
-
+.mit_cv{
+margin-top: -15px;
+}
 .grid_2{
 display: grid;
 grid-template-columns: 2fr 1fr;
+
 }
 
 /*kolonne til venstre med om mig tekst*/
@@ -304,119 +189,53 @@ grid-template-columns: 2fr 1fr;
 width: 500px;
 }
 
-/*boksen med MIT CV TEKST*/
+/* CV */
 .grid_3{
-    display: grid;
-grid-template-columns: 1fr;
-border-top: solid 1px black;
-border-bottom: solid 1px black;
-margin-top: -5px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 border-inline: none;
-margin-inline: 0px;
+padding-bottom: 100px;
+gap: 60px;
+border-bottom: solid 6px black;
 }
+.grid_3 img{
+margin-left: 40px;
+}
+
 
 .hide{
     display:none;
 }
 
-#cv_1_forside{
-    position: absolute;
-    top: 180%;
-    left:25%;
+#cv_1_forside img{
+   width: 200px;
+   
  } 
- #cv_1_tekst{
+ #cv_1_tekst {
     position: absolute;
-    top: 180%;
+    top: 186%;
     left:25%;
  } 
 
- #cv_2_forside{
-   width: 300px;
-    position: absolute;
-    top: 180%;
-    left:33.5%
+ #cv_2_forside img{
+    width: 200px;
+    
+   
  } 
 
  #cv_2_tekst{
     position: absolute;
-    top: 180%;
+    top: 186%;
     left:45%;
  } 
 
- #cv_3_forside{
-    position: absolute;
-    top: 180%;
-    left:65%;
+ #cv_3_forside img{
+    width:200px;
+  
  } 
  #cv_3_tekst{
     position: absolute;
-    top: 180%;
+    top: 186%;
     left:65%;
- } 
-
- #cv_4_forside{
-    position: absolute;
-    top: 205%;
-    left:25%;
- } 
- #cv_4_tekst{
-    position: absolute;
-    top: 205%;
-    left:25%;
- } 
-
- #cv_5_forside{
-    position: absolute;
-    top: 205%;
-    left:45%;
- } 
- #cv_5_tekst{
-    position: absolute;
-    top: 205%;
-    left:45%;
- } 
-
- #cv_6_forside{
-    position: absolute;
-    top: 205%;
-    left:65%;
- } 
- #cv_6_tekst{
-    position: absolute;
-    top: 205%;
-    left:65%;
- } 
-
- #cv_7_forside{
-    position: absolute;
-    top: 230%;
-    left:25%;
- } 
- #cv_7_tekst{
-    position: absolute;
-    top: 230%;
-    left:25%;
- } 
-
- #cv_8_forside{
-    position: absolute;
-    top: 230%;
-    left:45%;
- } 
- #cv_8_tekst{
-    position: absolute;
-    top: 230%;
-    left:45%;
- } 
-
- #cv_9_forside{
-    position: absolute;
-    top: 230%;
-    left:65%;
- } 
- #cv_9_tekst{
-    position: absolute;
-    top: 230%;
-    left:65%;
- }   
+ }  
  }

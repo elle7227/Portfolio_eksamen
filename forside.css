@@ -1,3 +1,7 @@
+body{
+  overflow: hidden;
+  width: 100%;
+}
 
 .nav ul {
   padding: 0px;
@@ -25,12 +29,8 @@ a:hover{
   }
 
 
-.grid_1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-img{
-    width: 720px;
+#gardin_hojre img, #gardin_venstre img{
+  width: 720px;
    margin-inline: -2px;
 }
 
@@ -80,6 +80,7 @@ img{
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    
   }
   
   @keyframes slide_2 {
@@ -90,6 +91,16 @@ img{
       transform: translatex(-100%);
     }
   }
+
+#plakat img{
+  width: 460px;
+  position: absolute;
+  top:10%;
+  left:20%;
+  box-shadow: 40px 30px 10px rgb(163, 163, 163);
+
+
+}
 
   @media (max-width: 600px){
     .nav ul {
